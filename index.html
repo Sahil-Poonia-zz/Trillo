@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/main.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
     <title>trillo &mdash; Your all-in-one booking app</title>
@@ -41,6 +41,33 @@
                 <div class="user-nav__user">
                     <img src="img/user.jpg" alt="user photo" class="user-nav__user-photo">
                     <span class="user-nav__user-name">Jonas</span>
+
+                    <div class="user-nav__user-dropmenu">
+                        <div class="user-nav__user-dropmenu__list">
+                            <div class="user-nav__user-dropmenu__list-item">
+                                <img src="img/logo.png" alt="" class="user-nav__user-dropmenu__list-item-icon-special">
+                                <p>Manage your Trilo Account</p>
+                            </div>
+                            <div class="user-nav__user-dropmenu__list-item">
+                                <svg class="user-nav__user-dropmenu__list-item-icon">
+                                    <use xlink:href="img/sprite.svg#icon-wallet"></use>
+                                </svg>
+                                <p>Payment methods</p>
+                            </div>
+                            <div class="user-nav__user-dropmenu__list-item">
+                                <svg class="user-nav__user-dropmenu__list-item-icon">
+                                    <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                </svg>
+                                <p>Addresses and more</p>
+                            </div>
+                            <div class="user-nav__user-dropmenu__list-item">
+                                <svg class="user-nav__user-dropmenu__list-item-icon">
+                                    <use xlink:href="img/sprite.svg#icon-log-out"></use>
+                                </svg>
+                                <p>Logout</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -87,13 +114,16 @@
             <main class="hotel-view">
                 <div class="gallery">
                     <figure class="gallery__item">
-                        <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo-1">
+                        <figcaption class="gallery__caption-1">It’s not a mirage</figcaption>
                     </figure>
                     <figure class="gallery__item">
-                        <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                        <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo-2">
+                        <figcaption class="gallery__caption-2">Don’t forget to look up!</figcaption>
                     </figure>
                     <figure class="gallery__item">
-                        <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                        <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo-3">
+                        <figcaption class="gallery__caption-3">Captivating views</figcaption>
                     </figure>
                 </div>
 
